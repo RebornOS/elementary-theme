@@ -1,0 +1,64 @@
+{
+    "section1": {
+        "type": "section",
+        "description": "General"
+    },
+    "transparency-type": {
+        "type": "combobox",
+        "default": "panel-transparent-full__internal",
+        "description": "Type of transparency",
+        "options": {
+            "With shadow": "panel-transparent-gradient__internal",
+            "Fully transparent": "panel-transparent-full__internal",
+            "Semi-transparent": "panel-transparent-semi__internal",
+            "Defined by theme": "panel-transparent"
+        },
+        "tooltip": "Choose the type of transparency you want.",
+        "value": "panel-transparent-full__internal"
+    },
+    "opacify": {
+        "type": "switch",
+        "default": false,
+        "description": "Remove theme transparency (experimental)",
+        "tooltip": "Remove panel transparency when it's not transparent.",
+        "value": false
+    },
+    "first-launch": {
+        "type": "generic",
+        "default": true,
+        "value": false
+    },
+    "section2": {
+        "type": "section",
+        "description": "Filter panels"
+    },
+    "label2": {
+        "type": "label",
+        "description": "Select the panels that will be affected by this extension."
+    },
+    "panel-top": {
+        "type": "switch",
+        "default": true,
+        "description": "Top panel",
+        "value": true
+    },
+    "panel-right": {
+        "type": "switch",
+        "default": true,
+        "description": "Right panel",
+        "value": true
+    },
+    "panel-bottom": {
+        "type": "switch",
+        "default": true,
+        "description": "Bottom panel",
+        "value": true
+    },
+    "panel-left": {
+        "type": "switch",
+        "default": true,
+        "description": "Left panel",
+        "value": true
+    },
+    "__md5__": "b1cf1cac9762978d534545d491749536"
+}
