@@ -1,0 +1,45 @@
+[org.cinnamon.desktop.wm.preferences]
+theme = 'MacOS-Sierra'
+
+[org.cinnamon.theme]
+name = 'macOS-Sierra'
+
+[org.cinnamon.desktop.interface]
+gtk-theme = 'elementary'
+icon-theme = 'elementary'
+gtk-decoration-layout = 'close:menu,maximize'
+
+[org.cinnamon]
+alttab-switcher-style = 'coverflow'
+hotcorner-layout = ['expo:true:50', 'expo:false:50', 'scale:false:0', 'desktop:false:0']
+enabled-extensions = ['transparent-panels@germanfr']
+enabled-applets ['panel1:right:0:systray@cinnamon.org:0', 'panel1:center:0:calendar@cinnamon.org:12', 'panel1:left:1:slingshot@jfarthing84:14', 'panel1:right:3:user@cinnamon.org:15', 'panel1:right:1:sound@cinnamon.org:21', 'panel1:right:2:power@cinnamon.org:22']
+
+panel-launchers = ['DEPRECATED']
+panels-autohide = ['1:intel']
+panels-enabled = ['1:0:top']
+panels-height = ['1:25']
+show-media-keys-osd = 'medium'
+workspace-osd-duration = 400
+workspace-osd-x = 50
+workspace-osd-y = 50
+desktop-effects-maximize-effect = 'scale'
+desktop-effects-maximize-time = 200
+desktop-effects-unmaximize-effect = 'scale'
+desktop-effects-unmaximize-time = 200
+
+[net.launchpad.plank]
+enabled-docks = ['dock1']
+
+[net.launchpad.plank.docks.dock1]
+dock-items = ['gnome-terminal.dockitem', 'nautilus.dockitem', 'pamac-manager.dockitem', 'pragha.dockitem', 'reborn-updates.dockitem']
+
+hide-mode = 'intelligent'
+current-workspace-only = true
+icon-size = 40
+theme = 'Gtk+'
+zoom-enabled = true
+zoom-percent = 110
+
+[org.cinnamon.desktop.background]
+picture-uri = 'file:///usr/share/backgrounds/elementaryos.jpg'
