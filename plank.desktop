@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=Autostart Plank
-Exec=usr/bin/plank.sh
+Exec=/usr/bin/plank.sh
 X-GNOME-AutoRestart=true
 NoDisplay=true

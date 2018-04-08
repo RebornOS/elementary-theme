@@ -17,6 +17,10 @@ sudo unzip -d /usr/share/themes/ /usr/share/themes/elementary.zip
 sudo rm /usr/share/themes/elementary.zip
 sudo rm /$HOME/.local/share/cinnamon/extensions/transparent-panels@germanfr/settings-schema.json
 sudo mv settings-schema.json /$HOME/.local/share/cinnamon/extensions/transparent-panels@germanfr/
+sudo mv plank.desktop /etc/xdg/autostart/
+sudo mv plank.sh /usr/bin/
+sudo chmod 777 /usr/bin/plank.sh
+sudo chmod 777 /etc/xdg/autostart/plank.desktop
 cd ..
 rm -rf elementary-theme
 
