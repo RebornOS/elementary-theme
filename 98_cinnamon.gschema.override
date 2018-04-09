@@ -14,7 +14,6 @@ alttab-switcher-style = 'coverflow'
 hotcorner-layout = ['expo:true:50', 'expo:false:50', 'scale:false:0', 'desktop:false:0']
 enabled-extensions = ['transparent-panels@germanfr']
 enabled-applets = ['panel1:right:0:systray@cinnamon.org:0', 'panel1:center:0:calendar@cinnamon.org:12', 'panel1:left:1:slingshot@jfarthing84:14', 'panel1:right:3:user@cinnamon.org:15', 'panel1:right:1:sound@cinnamon.org:21', 'panel1:right:2:power@cinnamon.org:22']
-
 panel-launchers = ['DEPRECATED']
 panels-autohide = ['1:intel']
 panels-enabled = ['1:0:top']
@@ -33,7 +32,6 @@ enabled-docks = ['dock1']
 
 [net.launchpad.plank.docks.dock1]
 dock-items = ['io.elementary.videos.dockitem', 'org.pantheon.noise.dockitem', 'org.pantheon.photos.dockitem', 'io.elementary.terminal.dockitem', 'reborn-updates.dockitem']
-
 hide-mode = 'intelligent'
 current-workspace-only = true
 icon-size = 40
