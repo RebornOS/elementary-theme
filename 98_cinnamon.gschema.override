@@ -2,7 +2,7 @@
 theme = 'MacOS-Sierra'
 
 [org.cinnamon.theme]
-name = 'macOS-Sierra'
+name = 'macOS-Arc-White'
 
 [org.cinnamon.desktop.interface]
 gtk-theme = 'elementary'
@@ -32,7 +32,7 @@ desktop-effects-unmaximize-time = 200
 enabled-docks = ['dock1']
 
 [net.launchpad.plank.docks.dock1]
-dock-items = ['gnome-terminal.dockitem', 'nautilus.dockitem', 'pamac-manager.dockitem', 'pragha.dockitem', 'reborn-updates.dockitem']
+dock-items = ['io.elementary.videos.dockitem', 'org.pantheon.noise.dockitem', 'org.pantheon.photos.dockitem', 'io.elementary.terminal.dockitem', 'reborn-updates.dockitem']
 
 hide-mode = 'intelligent'
 current-workspace-only = true
