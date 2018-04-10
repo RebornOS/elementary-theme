@@ -27,9 +27,6 @@ desktop-effects-maximize-time = 200
 desktop-effects-unmaximize-effect = 'scale'
 desktop-effects-unmaximize-time = 200
 
-[net.launchpad.plank]
-enabled-docks = ['dock1']
-
 [net.launchpad.plank.docks.dock1]
 dock-items = ['io.elementary.videos.dockitem', 'org.pantheon.noise.dockitem', 'org.pantheon.photos.dockitem', 'io.elementary.terminal.dockitem', 'reborn-updates.dockitem']
 hide-mode = 'intelligent'
